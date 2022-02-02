@@ -1,4 +1,4 @@
-<img align="justify" alt="chart" width="950px" src="https://github.com/zhekovdobri/Angular-project-DNB/blob/main/src/assets/images/Angular-project-DNB1200px.png">
+<img align="justify" alt="chart" width="950px" src="https://github.com/zhekovdobri/Angular-DNB-app/commit/a3e47b6e4a9e46fe3a62f94b319343034891f523">
 
 # Angular-DNB-app
 
