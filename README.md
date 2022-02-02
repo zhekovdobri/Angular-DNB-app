@@ -1,14 +1,10 @@
-<img align="justify" alt="chart" width="950px" src="https://github.com/zhekovdobri/Angular-project/blob/main/src/assets/images/Angular-project-1200px.png">
+<img align="justify" alt="chart" width="950px" src="https://github.com/zhekovdobri/Angular-project-DNB/blob/main/src/assets/images/Angular-project-DNB1200px.png">
 
-# Angular_project
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
+# Angular-DNB-app
 
 #### By: Dobri Zhekov
 
-#### TypeScript, JavaScript, HTML5 and CSS3 author homepage design.
-
-#### [<ins>Check the entire project here</ins>](https://zhekovdobri.github.io/Angular-project/)
+#### [<ins>Check the entire project here</ins>](https://zhekovdobri.github.io/Angular-DNB-app/)
 
 ## Technologies Used
 
@@ -17,40 +13,44 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <div class=pull-right>
-<img align="right" alt="chart" height="200px" src="https://github.com/zhekovdobri/Angular-project/blob/main/src/assets/images/Angular_language_chart.png">
+<img align="right" alt="chart" height="200px" src="https://github.com/zhekovdobri/Angular-DNB-app/blob/main/src/assets/images/Angular-DNB-app%20language%20chart.png">
 </div>
 
-
 * _TypeScript_
-* _JavaScript_
-* _HTML_
 * _CSS_
+* _HTML_
 
 <br />
 
-## Directory structure :
+## Description
 
-<img alt="image" src="https://github.com/zhekovdobri/Angular-project/blob/main/src/assets/images/Angular_project_directory.png">
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class=pull-right>
+<img align="right" alt="chart" height="100px" src="https://github.com/zhekovdobri/Angular-project-DNB/blob/main/src/assets/images/Directory_structure_logo.png">
 </div>
 
-## Description
-### Create new application project.
+## Directory structure:
 
-1. Navigate to your project parent folder.
+<img alt="chart" src="https://github.com/zhekovdobri/Angular-project-DNB/blob/main/src/assets/images/DNB%20directory%20structure.png">
 
-2. Run the CLI command "ng new" and provide the name of your project e.g."my-project":
+## Setup/Installation Requirements
 
-$ ng new my-project
+### Clone a repository using the command line 
 
-3.The ng new command prompts you for information about features to include in the initial application project. Accept the defaults by pressing the Enter or Return key.
-The Angular CLI installs the necessary Angular npm packages and other dependencies. This can take a few minutes.
-It also creates the following workspace and starter project files:
+1. From the repository, click "Code" and copy the address (either the SSH format or the HTTPS). 
+2. From a terminal window (cmd or Bash), change to the local directory where you want to clone your repository.
+3. Paste the address you copied from GitHub, with one of the next comand:
 
-- a new workspace, with a root folder named my-project.
-- an initial skeleton app project in the src/app subfolder. 
-- related configuration files.
+* **Clone over HTTPS**<br>
+  $ git clone (https://..)
+  
+* **Clone over SSH**<br>
+  $ git clone (ssh://..)
 
-The initial app project contains a simple Welcome application, ready to run. 
+# Angular-DNB-app
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.3.
 
 ## Development server
 
@@ -64,6 +64,10 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
@@ -74,6 +78,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## License
 
-Angular-project is licensed under the GNU GPL 3 license.
+
+Angular-DNB-app is licensed under the GNU GPL 3 license.
 
 <sub><sup>Copiright © 2016-2021 Dobri Zhekov All Rights Reserved</sup></sub>
