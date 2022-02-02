@@ -23,6 +23,7 @@
 <br />
 
 ## Description
+This Angular app is a simple Todo list with delete, add and toggle functionality. To make the app more dynamic, I added carousel in the footer section and another one in to About menu bar section. for that purpose I used bootstrap. The idea of menu bar creation came a little bit later, when I was finished with the todo list. Then I decided to come in with more functionality. Every single menu bar button here represent a single component. Both customers and employees can use the app based on their desire and needs.     
 
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
