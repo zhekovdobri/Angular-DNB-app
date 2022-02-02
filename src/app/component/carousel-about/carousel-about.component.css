@@ -1,0 +1,29 @@
+.d-md-block{
+    position: absolute;
+    right: 150px;
+    text-align: left;
+    margin: 0 442px;
+
+    background: linear-gradient(to bottom, #008789 0%,#00565b 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008789', endColorstr='#00565b',GradientType=0 );
+    z-index: 1;
+    padding: 0px 5px;
+    width: 342px;
+    opacity: 0.8;
+    height: 90px;
+    margin: 0 auto;
+    left: 0px;
+    color: #fff;
+    font-size: 14px;
+}
+a:hover {
+    color: #008789;
+    background: white;
+}
+p:hover {
+    color:#008789;
+}
+.d-md-block:hover {
+    color:#008789;
+    background: whitesmoke;
+}

@@ -1,0 +1,30 @@
+p {
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: teal;
+}
+h6 {
+    font-weight: 600;
+    color:#007272;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;   
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-left: 1px solid grey;
+}
+.info:hover a  {
+    background-color: #007272;
+    color: white;  
+    height: 120px;
+    padding: 10px
+}
+

@@ -1,0 +1,84 @@
+.todo {
+	display: flex;
+	padding: 10px 15px;
+	background-color: #FFF;
+	border-bottom: 1px solid #DDD;
+}
+.todo:nth-child(even) {
+	background-color: #EEE;
+}
+
+.todo:last-of-type {
+	border-bottom: 0;
+}
+.todo .id {
+	flex: 1 1 50px;
+}
+.todo .content {
+	flex: 1 1 100%;
+	cursor: pointer;
+}
+.todo.done .content {
+	text-decoration: line-through;
+}
+.todo-input {
+	display: block;
+	width: 100%;
+	padding: 10px 15px;
+	appearance: none;
+	border: none;
+	background-color: #F3F3F3;
+	margin-top: 15px;
+	font-size: 20px;
+	outline: none;
+    border-radius: 5px;
+}
+.todo-submit {
+	display: block;
+	width: 100%;
+	max-width: 250px;
+	appearance: none;
+	outline: none;
+	background: white;
+    border:2px solid #b1b0b0;
+	color: rgb(133, 130, 130);
+	margin: 15px auto;
+	padding: 10px 15px;
+	font-size: 18px;
+	font-weight: 700;
+}
+.todo-submit:hover {
+    background-color: #00676e;
+	color: rgb(223, 215, 215);
+}
+.todo-submit:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.approved_btn {
+	width: 35px; 
+	height: 35px;
+	margin: 0px 5px 
+}
+.user_icon {
+	width: 35px; 
+	height: 35px;
+	margin: 0 5px 0 0;
+}
+.delete {
+    background-color: #750303;
+    border-radius: 5px;
+    color: white;
+	width: 150px;
+	height: 30px;
+	margin-top: 2px;
+	font-size: 14px;
+}
+.delete:hover {
+    background-color: rgb(90, 89, 89);
+	color: rgb(236, 233, 233);
+}
+.delete:active {
+  box-shadow: 0 5px rgb(192, 191, 191);
+  transform: translateY(4px);
+}

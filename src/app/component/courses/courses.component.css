@@ -1,0 +1,26 @@
+p {
+    font-size: 14px;
+}
+.courses {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 5px 10px;
+    margin: 0 auto 15px 0;
+    color:#007272;
+    border-left: 1px solid grey;
+}
+.info {
+    border: 1px solid #007272;
+    border-radius: 20px;
+}
+.info:hover {
+    border: 2px solid;
+}
+.info:active {
+    background-color: aqua;
+    color: white;
+}
+h5 {
+    font-weight: 600;
+}

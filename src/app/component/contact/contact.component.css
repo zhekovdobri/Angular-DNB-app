@@ -1,0 +1,23 @@
+.branch a {
+    background: url("https://www.dnb.no/portalfront/dnb/images/gfx/findOffice/findOffice_Bank_small.png");
+    background-repeat: no-repeat;
+    padding-left: 25px;
+    color :#007272;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding: 10px;
+    line-height: 70%;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    border-left: 1px solid grey;
+    height: 200px;    
+}
+h5 {
+    font-weight: 600;
+}

@@ -1,0 +1,29 @@
+<div class="todos">
+
+    <form (submit) = "addTodo()">
+        <input 
+        type="text"
+        name="inputTodo"
+        placeholder="Employee Name..."
+        class="todo-input"
+        [(ngModel)] = "inputTodo"
+        >
+
+        <input type="submit" value="Click here to participate" class="todo-submit">
+
+    </form>
+
+    <div *ngFor="let todo of todos; let i = index;" class="todo {{ (todo.completed ? 'done' : '') }} ">
+        
+        <div class="id">{{ i }}</div>
+
+        <img src="assets/images/user_icon.png" class="user_icon" alt="Logo">
+        
+        <div class="content" (click)="toggleDone(i)">{{ todo.content }}</div>
+
+        <img src="assets/images/Approved_btn.png" class="approved_btn" alt="Logo">
+        
+        <button class="delete" (click)="deleteTodo(i)">Not coming</button>
+
+    </div>
+</div>
