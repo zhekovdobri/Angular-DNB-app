@@ -28,7 +28,7 @@ This Angular app is a simple Todo list with delete, add and toggle functionality
 </div>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <div class=pull-right>
-<img align="right" alt="chart" height="100px" src="https://github.com/zhekovdobri/Angular-project-DNB/blob/main/src/assets/images/Directory_structure_logo.png">
+<img align="right" alt="chart" height="100px" src="https://github.com/zhekovdobri/Angular-DNB-app/blob/main/src/assets/images/Directory_structure_logo.png">
 </div>
 
 ## Directory structure:
